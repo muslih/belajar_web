@@ -1,0 +1,75 @@
+/*style umum*/
+body{
+  background: #eee;
+  font-family: sans-serif;
+}
+h1{
+  color:red;
+  text-align:center;
+}
+
+h2{
+  color:blue;
+}
+
+.orange{
+  color:orange;
+}
+#orange{
+  color:green;
+}
+
+ul{
+  padding:0;
+}
+
+li{
+  background: white;
+  list-style: none;
+  border:dashed 2px pink;
+}
+
+li p{text-align:left;}
+
+p{
+  text-align: center;
+}
+/*
+selector class  = .
+selector id     = #
+ */
+
+
+/* margin dan padding */
+li{
+  /*3 cara menulis padding*/
+  /*padding:10px;*/
+  /*padding:10px 20px;*/
+  padding:10px;
+  margin:0 0 15px 0;
+  /*width:500px;*/
+}
+
+/*blockquote{
+  font-style: italic;
+  border-left:#444 solid 1px;
+}
+*/
+/*
+
+huruf
+1. Sans-serif
+2. Serif
+*/
+
+
+/*
+border
+solid = 
+dashed = putus - putus
+dotted = titik titk
+format = type tebal warna
+ */
+
+
+
