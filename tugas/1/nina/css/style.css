@@ -1,0 +1,80 @@
+/*umum*/ /*selector class = .*/ /*selector id = #*/
+body{
+	background-color:#ff6600 ;
+	font-family: sans-serif;
+	margin : auto;
+	width: 800px;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+}
+
+h2{
+	color: yellow;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+table{
+	text-align: center;
+	border : 1px solid;
+	padding: 10px;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+	background: #ff9900;
+	color: white;
+	padding: 10px;
+	margin: 3px 0px 10px 0px;
+	width :800px;
+	border-top:  solid 5px  #ffff33;
+	border-bottom: solid 5px #ffff33;
+}
+/*border type : dashed,solid, dotted*/
+li p {
+	text-align: left;
+}
+blockquote{
+	color:white; 
+	padding: 15px; 
+	margin: 4px 40px; 
+	border: 2px solid yellow;
+	-moz-border-radius-topleft: 15px; 
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topright: 15px; 
+	-webkit-border-top-right-radius: 8px; 
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-bottom-left-radius: 15px; 
+}
+
+/*katakatasayur*/
+.ini{ 
+	border-top-style: double;
+	border-top: 3px dotted;
+	border-bottom : 2px solid;
+	padding: 7px 0 7px 0;
+}
+/*kotakkotakharga*/
+.t {
+width: 100%;
+border-collapse: collapse;
+box-shadow: 0 2px 3px 1px #ddd;
+table-layout: fixed;
+border:3px solid #fff;
+}
+.t thead {
+background-color: #ffff33;
+color:black;
+}
+.atas{
+	box-shadow: 0 3px 5px 3px #FFD700 ;
+}
