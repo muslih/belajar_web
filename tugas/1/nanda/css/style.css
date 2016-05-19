@@ -1,0 +1,154 @@
+body {
+	
+	font-family: sans-serif;
+}
+
+/*header*/
+#kepala {
+	background: #D88CC6;
+	height: 550px;
+	width: auto;	
+}
+
+#picture {
+	padding-top: 210px;
+}
+
+/*tengah*/
+
+h1 {
+	padding-top: 280px;
+	color: #D88CC6;
+	text-align: center;
+	/*margin-bottom: 200px;*/	
+}
+
+h2 , h3 {
+	color: #D88CC6;
+}
+#icon {
+	/*background: url(../gambar/icon)no-repeat;*/
+	/*border-bottom: 1px solid #D88CC6;*/
+	padding-bottom: 20px;
+	top: 50px;
+}
+
+#garis {
+	border-bottom: 1px solid #D88CC6;
+}
+/*h2 {
+	padding-top: 350px;
+	color: blue;
+}
+*/
+
+.a {
+	color: orange;
+}
+
+.paragraf {
+	color: #D88CC6;
+	text-align: center;
+}
+
+.paragraf2 {
+	color: #D88CC6;
+	text-align: center;
+
+}
+
+p{
+	text-align: left;
+}
+.aa {
+	color: #D88CC6;
+	text-align: center;
+	border-bottom: 1px solid #D88CC6;
+	padding-bottom: 20px;
+}
+
+#grid_1{
+	display: inline;
+	float: left;
+  	margin-left: 5px;
+ 	margin-right: 5px;
+
+}
+
+#satu {
+	/*top: 300px;*/
+
+	position: relative;
+}
+li {
+	
+	list-style-type: none;
+	margin: 0 0 15px 0 ;
+	width: 150px;
+	margin-left: 50px;
+ 	margin-right: 50px;
+
+}
+	
+}
+
+#dua {
+	background: none;
+	top: 60px;
+	position: relative;
+	left: 405px;
+}
+
+ul{
+	padding: 0;
+}
+
+#tiga {
+	background: none;
+	top: -127px;
+	position: relative;
+	left: 800px;
+}
+
+#isi {
+	width: 100%;
+	padding: 50px;
+}
+
+#isi_kiri {
+	width: 30%;
+	float: left;
+
+}
+
+#isi_tengah {
+	width: 35%;
+	float: left;
+}
+
+#isi_kanan {
+	width: 30%;
+	float: left;
+}
+
+h3 .rata {
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+#tabel .{
+
+	/*margin-bottom: 100px;*/
+	margin: auto;
+	padding-left: 30px;
+
+}
+
+#logo{
+	border-bottom: 1px solid #D88CC6;
+	display: inline;
+}
+/*komen ctrl+/*/
+/*selecttor class = . */
+
+/*single page template*/
