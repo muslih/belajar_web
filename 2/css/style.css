@@ -53,11 +53,6 @@ li{
   border:dashed 2px pink;
 }
 
-li p{text-align:left;}
-
-p{
-  text-align: center;
-}
 /*
 selector class  = .
 selector id     = #
@@ -128,3 +123,14 @@ format = type tebal warna
 #content h2{
   text-align:center;
 }
+
+li{
+  width: 232px;
+  text-align:center;
+  float: right
+}
+li p{
+  text-align:center;
+}
+
+#harga{clear:both;}

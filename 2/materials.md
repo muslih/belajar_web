@@ -1,8 +1,11 @@
 #Ukuran Device
 
 dekstop lebar   = 1240px
+
 dekstop sedang  = 1024px
+
 dekstop kecil   = 768px
+
 mobile          = 320px
 
 #perbedaan class dan id lebih detil
@@ -43,6 +46,17 @@ dapat digabungkan menjadi
 #header-bawah{
   background: #E74C3C;
 }
+```
+#membuat kolom dengan width
 
-#
+1. ukurang contoh 768px; karena kita ingin 3 buah kolom, maka kita bagi jadi tiga `768/3 = 256px`
+
+2. selah ukuran diubah, kita atur posisi menjadi float left atau right
+
+3. karena setiap element yang di float memiliki padding 10px dan border 2px jadi 256px - 24px = 232px
+
+
+#clear
+
+
 
