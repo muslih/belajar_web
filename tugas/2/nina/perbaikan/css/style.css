@@ -1,0 +1,179 @@
+/*style umum*/
+
+/*
+0. general
+1. header
+2. navigasi
+3. konten
+4. sidebar
+5. footer
+ */
+
+
+/**
+ * 0. general
+ */
+body{
+  background: #eee;
+  font-family: sans-serif;
+  margin:0;
+}
+h1{
+  text-align:center;
+}
+
+h2{
+  color:blue;
+}
+
+/*#E67E22
+CARROT
+#D35400*/
+.orange{
+  color:#D35400;
+}
+
+/*section{
+  width: 768px;
+  margin:auto;
+}*/
+
+header,section, footer{
+  width:768px;
+  margin:auto;
+}
+
+ul{
+  padding:0;
+}
+
+#content li{
+  background: white;
+  border:dashed 2px pink;
+}
+
+/*
+selector class  = .
+selector id     = #
+ */
+
+
+/* margin dan padding */
+li{
+  /*3 cara menulis padding*/
+  /*padding:10px;*/
+  /*padding:10px 20px;*/
+  padding:10px;
+  margin:0 0 5px 0;
+  list-style: none;
+  /*width:500px;*/
+}
+
+
+
+/*blockquote{
+  font-style: italic;
+  border-left:#444 solid 1px;
+}
+*/
+/*
+
+huruf
+1. Sans-serif
+2. Serif
+*/
+
+
+/*
+border
+solid = 
+dashed = putus - putus
+dotted = titik titk
+format = type tebal warna
+ */
+
+
+/**
+ * 1. header
+ * #E74C3C
+ * #C0392B
+ */
+
+.merah{
+  color:#C0392B;
+  text-align: center;
+}
+
+#header, #header-bawah{
+  padding:15px 0;
+  color:#fff;
+}
+#header{
+  background: #C0392B;
+}
+
+#header-bawah{
+  background: #E74C3C;
+}
+
+
+/**
+ * 3.konten
+ */
+
+#content h2, #content li{
+  text-align:center;
+}
+
+#content li{
+  width: 232px;
+  float: right;
+}
+
+#harga{clear:both;}
+
+#header-atas li{
+  float: left;
+  padding: 5px 0px ;
+  width:192px;
+  text-align: center ;
+  text-shadow: 1px 1px 3px black;
+  margin: 7px 0px;
+  color: white;
+  border-bottom: dotted 2px white;
+}
+#mengapa li{
+    list-style: square;
+}
+
+.zebra-table {
+width:768px;
+border-collapse: collapse;
+overflow: hidden;
+border:6px solid #C0392B;
+}
+.zebra-table th,.zebra-table td{
+vertical-align: top;
+padding:10px 7px;
+text-align: center;
+}
+.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+background:#C0392B;
+}
+blockquote{
+  width: 735px;
+  color:white; 
+  padding: 15px; 
+  margin: 4px auto; 
+  border: 3px solid #eee;
+  background-color: #C0392B;
+  -moz-border-radius-topleft: 15px; 
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px; 
+  -webkit-border-top-right-radius: 8px; 
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px; 
+}
+#batis {
+  padding: 12px;
+}
