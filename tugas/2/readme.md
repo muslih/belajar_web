@@ -16,4 +16,4 @@
 11. Simpan perbaikan pada direktori `2` dengan `namaanda/perbaikan` dan web buatan anda di dalam folder  `namaanda/web`
 
 ##Catatan
-Di push dan merge request maksimal pada hari selasa
+Di push dan merge request maksimal pada hari selasa!
