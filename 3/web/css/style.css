@@ -38,7 +38,7 @@ CARROT
   margin:auto;
 }*/
 
-header,section, footer{
+header,section, footer,nav ul{
   width:768px;
   margin:auto;
 
@@ -124,13 +124,43 @@ format = type tebal warna
   color:#fff;
 }
 #header{
+  text-align: center;
   background: #C0392B;
 }
 
-h1, #header-bawah{
+#header-bawah{
   background: #E74C3C;
   text-align: center;
+  margin-bottom: 25px;
 }
+
+/**
+ * 2. navigasi
+ */
+nav{
+  background: #444;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+
+nav a{
+  color:#C5C5C5;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:#fff;
+}
+
+nav a.aktif{
+  color: #fff;
+}
+
 
 
 /**
@@ -168,7 +198,9 @@ h1, #header-bawah{
 }
 
 /*footer*/
-#uu {
-  font-size: 12px;
+#footer{
+  border-top:solid 1px #ccc;
+  padding:15px 0;
   text-align: center;
+  margin-top:25px;
 }
