@@ -1,0 +1,96 @@
+/*header*/
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background: #EABEBE;
+}
+
+header, section {
+	margin: auto;
+	width: 768px;
+
+}
+
+h3, #header-text, .default, footer, .tabel th,.tabel td{
+	text-align: center;
+}
+
+/*header utama */
+#header {
+	padding:15px 0;
+}
+
+.utama, .default {
+	float: left;
+}
+.utama {
+	padding: 0px 85px 0px 50px;
+	line-height: 5px;
+	list-style: none;
+}
+
+li{
+  padding:10px;
+  margin:0 0 15px 0;
+}
+
+ 
+/*header bawah */
+
+#header-bawah, .default {
+	background: rgba(255, 0, 0, 0.18);
+}
+
+#header-bawah {
+	padding:80px 0;
+}
+
+#header-text{
+	margin: 100px;
+}
+
+h2, p{
+	color: rgb(97, 13, 13);
+}
+/*p {
+	color: rgba(156, 49, 49, 0.74);
+}*/
+
+/*konten*/
+.default{
+  color: rgba(156, 49, 49, 0.74);
+  width: 200px;
+  /*border:dashed 2px pink;*/
+  margin: 5px 5px 5px 5px;
+  list-style: none;
+}
+
+/*tabel*/
+#tabel-harga {
+	clear: both;
+	padding: 50px;
+}
+
+.tabel{
+  background-color: rgba(255, 0, 0, 0.18);
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 3px 1px #ddd;
+  overflow: hidden;
+  border: 10px solid rgb(239, 103, 103);
+}
+
+.tabel th,.tabel td{
+  vertical-align: top;
+  padding: 10px 7px;
+  margin: 0;
+}
+
+.tabel tbody tr:nth-child(odd){
+  background: #eee;
+}
+
+/*footer*/
+footer {
+	font-size: 12px;
+}
