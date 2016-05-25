@@ -54,10 +54,12 @@ ul{
   line-height: 5px;
 }
 
-.utama, .default {
+.utama, #produk {
   list-style: none;
 }
-.default{
+
+
+#produk li{
   color: blue;
   width: 200px;
   border:dashed 2px pink;
