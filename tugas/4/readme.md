@@ -1,4 +1,5 @@
-#Tugas pertemuan 4
+#Tugas pertemuan ke 4
+
 1. Masing-masing memahami value dari property display di link <a href="http://www.w3schools.com/cssref/pr_class_display.asp">http://www.w3schools.com/cssref/pr_class_display.asp</a>:
     * Nanda : block..table-caption
     * Nina : table-column-group..table-row
