@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu</title>
+  <style>
+    body{
+      font-family: arial, sans-serif;
+    }
+    #header{text-align: center;}
+
+
+    nav ul{
+      background: #2980b9;
+      /*overflow: hidden;*/
+    }
+
+    nav li{
+      display: inline-table;
+      position: relative;
+    }
+
+    /*nav li:first-child{
+      background: green
+    }*/
+
+    nav li:last-child{
+      /*background: green*/
+    }
+
+
+    nav li a{
+      padding: 10px;
+      /*background: yellow;*/
+      display: inline-block;
+
+      text-decoration: none;
+      color:#eee;
+    }
+    nav li a:hover{
+      color:#fff;
+      background: #3498db;
+    }
+
+    nav li:hover ul{
+      display: block;
+    }
+
+    /* atur menu level 2*/
+    nav li ul{
+      padding: 0;
+      position: absolute;
+      left: 0;
+      display: none;
+    }
+
+    nav li ul li{
+      width: 100%;
+      text-align:left;
+      float: left;
+      clear:left;
+    }
+
+  </style>
+</head>
+<body>
+<div id="header">
+  
+  <h1>
+    Header  Website
+  </h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Services</a>
+        <ul>
+          <li><a href="#">UI/UX Designer</a></li>
+          <li><a href="#">Front-end Development</a></li>
+          <li><a href="#">Back-end Development</a></li>
+          <li><a href="#">SEO Services</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Galery</a>
+        <ul>
+          <li><a href="#">Galeri Satu</a></li>
+          <li><a href="#">Galeri Dua</a></li>
+          <li><a href="#">Galeri Tiga</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+</body>
+</html>
