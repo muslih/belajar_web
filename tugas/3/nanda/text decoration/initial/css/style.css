@@ -1,0 +1,41 @@
+nav ul, header{
+	margin:auto;
+	width: 768px;
+
+}
+
+body{
+	background: #6E91A2;
+	color: white;
+	font-style: arial sans-serif;
+}
+
+nav {
+	text-align: center;
+	margin: 50px 20px;
+}
+nav li {
+	display: initial;
+}
+
+li {
+	padding:20px;
+}
+
+nav ul ul {
+	position: absolute;
+}
+
+nav ul li {
+	position: relative;
+	display: hidden;
+}
+#header {
+	background: white;
+	text-align: center;
+	padding: 50px 50px;
+}
+
+h3{
+	color: #6E91A2;
+}

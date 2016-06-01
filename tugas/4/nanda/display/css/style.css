@@ -1,0 +1,44 @@
+body {
+	width: 768px;
+	margin: auto;
+}
+section {
+	display: flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	background-color: #fff;
+	padding: 30px;
+	justify-content: space-around;
+}
+
+p{
+	background-color: #567B7B;
+	width: 500px;
+	height: auto;
+	margin: 10px;
+}
+
+.mybox {
+	border: 1px solid #888;
+	padding: 10px 20px;
+	margin:10px;
+}
+
+.daftar{
+	display: list-item;
+	font: normal 14px Arial;
+	line-height: 20px;
+}
+
+/*ul {
+font: normal 14px Arial;
+line-height: 20px;
+
+}*/
+
+footer{
+	display: block;
+	background: yellow;
+	width: auto;
+}
