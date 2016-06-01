@@ -4,7 +4,55 @@
   <meta charset="UTF-8">
   <title>Nav Level 3</title>
   <style>
+    body{
+      font-family: arial, sans-serif;
+      background: #eee;
+      text-align: center;
+    }
 
+    nav ul{
+      background: yellow;
+      padding: 0;
+    }
+
+    nav a{
+      color:#444;
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+    }
+    nav li{
+      text-align: left;
+      display: inline-table;
+      position: relative;
+      width: 120px;
+    }
+
+    nav li:hover{
+      background: #eee;
+    }
+
+    nav li:hover>ul{
+      display: block;
+    }
+
+    nav li ul{
+      position: absolute;
+      display: none;
+    }
+
+    /*pilih ul level 3*/
+    nav li>ul li>ul{
+      background: red;
+      top:0;
+      left: 100%;
+    }
+    nav li>ul li>ul{
+      background: red;
+      top:0;
+      left: 100%;
+    }
+    
   </style>
 </head>
 <body>
