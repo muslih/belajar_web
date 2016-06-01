@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nav Level 3</title>
+  <style>
+      body{
+        text-align: center;
+        font-family: arial, sans-serif;
+      }
+
+      nav ul {
+        background: #4CDA8A;  
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-table;
+        position: relative;
+        width: 180px;
+      }
+
+      nav a{
+        text-decoration: none;
+         padding: 10px;
+         display: block;
+         color: #fff;
+         width: 180px;
+      }
+
+      nav li:hover {
+        background: #07694D;
+        width: 180px;
+      }
+       
+      nav li ul {
+        position: absolute;
+        display: none;
+      }
+
+      nav li:hover>ul{
+        display: block;
+      }
+
+      nav li>ul {
+        display: none;
+      }
+
+      nav li>ul li>ul {
+      top: 0;
+      left: 100%;
+      }
+      
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      Judul Website
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Services</a>
+         <ul>
+            <li><a href="#">UI/UX Designer</a></li>
+            <li><a href="#">Front-end Development</a></li>
+            <li>
+              <a href="#">Back-end Development</a>
+              <ul>
+                <li><a href="#">Ruby</a></li>
+                <li><a href="#">Php</a></li>
+                <li><a href="#">Python</a></li>
+              </ul> 
+            </li>
+            <li><a href="#">SEO Services</a></li>
+          </ul>  
+        </li>
+        <li><a href="#">About</a>
+          <ul>
+            <li><a href="#">Alamat</a>
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Galery</a>
+          <ul>
+            <li><a href="#">Galeri Satu</a></li>
+            <li><a href="#">Galeri Dua</a></li>
+            <li><a href="#">Galeri Tiga</a>
+                <ul>
+                  <li><a href="#">Foto Satu</a></li>
+                  <li><a href="#">Foto Dua</a></li>
+                </ul>
+            </li>
+          </ul> 
+        </li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
