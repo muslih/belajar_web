@@ -7,6 +7,8 @@
       body{
         text-align: center;
         font-family: arial, sans-serif;
+        width: auto;
+
       }
 
       nav ul {
@@ -41,7 +43,11 @@
       nav li:hover>ul{
         display: block;
       }
+      
+      nav li li>ul {
+        display: none;
 
+      }      
       nav li>ul {
         display: none;
       }
@@ -51,6 +57,7 @@
       left: 100%;
       }
       
+
 
   </style>
 </head>
@@ -71,7 +78,12 @@
               <a href="#">Back-end Development</a>
               <ul>
                 <li><a href="#">Ruby</a></li>
-                <li><a href="#">Php</a></li>
+                <li><a href="#">Php</a>
+                  <ul>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Dekstop</a></li>
+                  </ul>
+                </li>
                 <li><a href="#">Python</a></li>
               </ul> 
             </li>
@@ -83,7 +95,12 @@
             <li><a href="#">Alamat</a>
                 <ul>
                   <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Instagram</a>
+                      <ul>
+                        <li><a href="#">Instagram si A</a></li>
+                        <li><a href="#">Instagram si B</a></li>
+                      </ul>
+                  </li>
                 </ul>
             </li>
             <li><a href="#">Link</a></li>
@@ -96,14 +113,24 @@
             <li><a href="#">Galeri Dua</a></li>
             <li><a href="#">Galeri Tiga</a>
                 <ul>
-                  <li><a href="#">Foto Satu</a></li>
+                  <li><a href="#">Foto Satu</a>
+                    <ul>
+                      <li><a href="#">Foto Jadoel</a></li>
+                      <li><a href="#">Foto Kekinian</a></li>
+                    </ul>
+                  </li>
                   <li><a href="#">Foto Dua</a></li>
                 </ul>
             </li>
           </ul> 
         </li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Contact</a>
+          <ul>
+            <li><a href="#">Via Telepon</a></li>
+            <li><a href="#">Via Media Sosial</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
