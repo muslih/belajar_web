@@ -1,0 +1,155 @@
+/*umum*/ /*selector class = .*/ /*selector id = #*/
+body{
+	margin:0;
+  	background-color:#ffb500;
+  	font-family: sans-serif;
+}
+header,section, footer{
+  	width:768px;
+  	margin:auto;
+ }
+
+/*.atas{
+	width :800px;
+	box-shadow: 0 3px 5px 3px #FFD700 ;
+}*/
+
+/**
+HEADERRRRR
+**/
+
+#header-atas li{
+	float: left;
+	padding: 5px 0px ;
+	width:192px;
+	text-align: center ;
+	text-shadow: 1px 1px 3px black;
+	margin: 7px 0px;
+	color: white;
+}
+
+#header-tengah {
+	clear: both;
+	color: #eee;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+	background-color: #ffb500;
+}
+
+#header-bawah {
+	background-color:#ff9900;
+	clear: both;
+	margin: 3px;
+	text-align: center;
+
+}
+
+/*
+content
+*/
+#content li{
+	background: #ff9900;
+	color: white;
+	padding: 10px;
+	border-top:  double 5px  #ffff33;
+	border-bottom: double 5px #ffff33;
+	width: 168px;
+	float: left;
+	margin:2px;
+}
+
+li p {
+	text-align: left;
+}
+
+#mengapa{
+	width: 768px;
+	margin:auto;
+	
+}
+
+#mengapa ul{
+	margin-left:20px; 
+}
+#mengapa li{
+		list-style: square;
+}
+
+#testi{
+	width: 768px;
+	margin:auto;
+}
+
+#harga{
+	width: 768px;
+	margin: auto;
+	clear: both;
+}
+
+#footer{
+	padding: 20px;
+	margin: 0;
+	clear:both;
+	text-align: center;
+	background-color: #ffee00;
+}
+
+li{
+	list-style: none;
+}
+
+ul{
+	width:768px;
+	padding: 0px;
+}
+
+blockquote{
+	width: 740px;
+	color:white; 
+	padding: 15px; 
+	margin: 4px auto; 
+	border: 3px solid yellow;
+	background-color: #39d972;
+	-moz-border-radius-topleft: 15px; 
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topright: 15px; 
+	-webkit-border-top-right-radius: 8px; 
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-bottom-left-radius: 15px; 
+}
+
+/*katakatasayur*/
+.ini{ 
+	border-top-style: double;
+	border-top: 3px dotted;
+	border-bottom : 2px solid;
+	padding: 7px 0 7px 0;
+}
+
+h2{
+	text-align: center;
+	margin:2px 0;
+	text-shadow: 1px 1px 3px black;
+	color: white;
+}
+h3{
+	text-shadow: 1px 1px 3px black;
+	text-align:center; 
+	margin:auto; 
+	color:white;
+}
+
+.zebra-table {
+width:768px;
+border-collapse: collapse;
+overflow: hidden;
+border:10px solid #ffee00;
+}
+.zebra-table th,.zebra-table td{
+vertical-align: top;
+padding:10px 7px;
+text-align: center;
+}
+.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+background:#ffee00;
+}
