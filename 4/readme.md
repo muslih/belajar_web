@@ -28,7 +28,7 @@ Initial ketika di set, ia akan mengubah nilai pada properti tersebut menjadi nil
 3. tambahkan properti `position` dengan value `relative` pada `li` level 1
 4. atur posisi menu
 5. ubah property 'display' menjadi `hidden`
-<6 class=""></6> pada `li` level tambahkan pseudo class `:hover` dan ubah properti `display` pada `ul` level 2 menjadi `'block'
+6. pada `li` level 1 tambahkan pseudo class `:hover` dan ubah properti `display` pada `ul` level 2 menjadi `'block'
 
 #position property
 Posisi, letak, menerangkan letak objek tersebut secara spesifik, property `position` ini memiliki empat buah `value` yaitu: 
