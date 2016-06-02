@@ -1,0 +1,152 @@
+/**
+ * Layout Theme
+ * author   : Nama Anda;
+ * email    : emailanda@email.com
+ * web      : webanda.com
+ *
+ * STYLE
+ *
+ * 1. general
+ * 2. header
+ * 3. nav
+ * 4. section & article
+ * 5. aside
+ * 6. footer
+ */
+
+
+/**
+ * 1.general
+ */
+
+body{
+  background: #eee;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.bungkus{
+  width:1024px;
+  margin:auto;
+  background: #fff;
+  padding:0 15px;
+}
+
+/**
+ * 2.header
+ */
+
+header{
+  padding:20px 0;
+  overflow: hidden;
+}
+
+header h1{
+  width: 60%;
+  float:left;
+}
+
+header form{
+  width: 30%;
+  float: right;
+}
+
+/**
+ * 3.nav
+ */
+
+nav{
+  border-top:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  margin:20px 0;
+}
+
+nav ul{padding:0;margin:0;}
+
+nav li{
+  display: inline-table;
+}
+
+nav li:hover a{
+  background: #ccc;
+}
+
+nav a{
+  text-decoration: none;
+  color:#444;
+  display: block;
+  padding:10px 15px;
+}
+
+/**
+ * 4.section & article
+ */
+section{
+  width: 70%;
+  float: left;
+  border-right: solid 1px #ccc;
+  margin-bottom: 15px;
+}
+
+article{
+  border-bottom: dashed 1px #eee;
+  /*margin:15px 0;*/
+  padding:15px 15px 15px 0;
+  clear:both;
+  overflow: hidden;
+}
+
+article:last-child{
+  border-bottom: none;
+}
+
+.article-gambar{
+  border:solid 1px #ddd;
+  padding: 5px;
+  float: left;
+  margin-right: 15px;
+}
+
+.article-konten h2{
+  margin:0 0 15px 0;
+}
+
+.article-konten a{
+  text-decoration: none;
+  color:#444;
+}
+
+.article-konten a:hover{
+  background: orange;
+  color:#000;
+}
+
+.article-konten-meta{
+  color:#9C9C9C;
+  font-size: 14px;
+}
+.article-konten-intro{
+  line-height: 25px;
+}
+
+/**
+ * 5.aside
+ */
+
+aside{
+  width: 28%;
+  float: right;
+}
+
+/**
+ * 6.footer
+ */
+footer{
+  border-top:solid 1px #ccc;
+  padding:20px 0;
+  clear:both;
+}
+
+footer p:first-child{
+  margin:0;
+}
