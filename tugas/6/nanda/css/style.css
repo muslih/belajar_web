@@ -1,0 +1,149 @@
+body {
+	font-family: arial, sans-serif;
+	background: rgba(189, 195, 199, 0.14);
+	margin: 0;
+}
+
+.bungkus {
+	width: 900px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+header form {
+	width: 70%;
+	float: right;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+nav {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #7f8c8d;
+	border-bottom: 1px solid #7f8c8d;
+	background: rgba(158, 158, 158, 0.09);
+	
+} 
+
+nav ul {
+	padding: 0;
+}
+nav li {
+	display: inline-table;
+	position: relative;	
+	width: 100px;
+}
+
+nav a {
+	margin-right: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	color: rgba(0, 0, 0, 0.53);	
+	width: 100px;
+}
+
+nav li:hover {
+	background: rgba(158, 158, 158, 0.09);
+	width: 100px;
+}
+
+nav li ul {
+	position: absolute;
+	display: none;
+}
+
+nav li:hover>ul {
+	display: block;
+	
+}
+
+nav li li>ul {
+    display: none;
+}      
+
+nav li>ul li>ul {
+   	top: 0;
+    left: 100%;
+}
+
+section {
+	width: 70%;	
+	float: left;
+	margin-top: 40px;
+	display: -webkit-flex;
+	display: flex;
+	background-color: rgba(158, 158, 158, 0.09);
+	height: 373px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+h2, h3{
+	color: green;
+}
+
+.satu{
+	display: inline-block;
+	width: 180px;
+	height: auto;
+	text-align: center;
+	margin: 10px;
+}
+
+.tabel {
+	background-color: rgba(158, 158, 158, 0.09);
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	overflow: hidden;
+	border: 10px solid rgba(0, 0, 0, 0.53);
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.tabel th,.tabel td{
+  vertical-align: top;
+  padding: 10px 7px;
+  margin: 0;
+}
+
+aside {
+	width: 25%;
+	float: right;
+	margin-top: 40px;
+	margin-left: 10px;
+	line-height: 50px;
+}
+
+footer {
+	padding-top: 50px;
+	margin-top: 40px;
+	display: -webkit-flex;
+	display: flex;
+	background: rgba(189, 195, 199, 0.14);
+	height: auto;
+	font-size: 12px;
+}
+
+footer h4 { padding-left: 35px; }
+
+.footer {
+
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	margin: 20px 20px 20px 20px;
+	line-height: 20px;
+}
+
+footer ul {
+	text-decoration: none;
+}
+
+#copy {
+	text-align: center;
+	font-size: 12px;
+}
