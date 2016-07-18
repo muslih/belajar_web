@@ -1,0 +1,267 @@
+/**
+ * Layout Theme
+ * author   : Nama Anda;
+ * email    : emailanda@email.com
+ * web      : webanda.com
+ *
+ * STYLE
+ *
+ * 1. general
+ * 2. header
+ * 3. nav
+ * 4. section & article
+ * 5. aside
+ * 6. footer
+ */
+
+
+/**
+ * 1.general
+ */
+
+body{
+  background: #8b2323;
+  margin: 0;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.bungkus{
+  width:1024px;
+  margin:12px auto;
+  background: #a52a2a;
+  padding:0 10px;
+  border:dashed 2px #fff;
+  -moz-border-radius-topleft: 15px; 
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px; 
+  -webkit-border-top-right-radius: 10px; 
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px; 
+  box-shadow: 0 2px 3px 2px black;
+}
+
+/**
+ * 2.header
+ */
+
+header{
+  padding:20px 0 0 0;
+  overflow: hidden;
+}
+
+header h1{
+  width: 60%;
+  float:left;
+  color: white;
+  margin-top: 0;
+  font-size: 50px;
+  font-family: fantasy;
+  text-shadow: 1px 2px 8px black;
+}
+
+header form{
+  width: 30%;
+  float: right;
+}
+
+/**
+ * 3.nav
+ */
+
+nav{
+/*  border-top:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;*/
+  margin:0 0 20px 0;
+}
+
+nav ul{padding:0;margin:0;}
+
+nav li{
+  display: inline-table;
+  position: relative;
+  width: 248px;
+  text-align: center;  
+  text-shadow: 1px 2px 3px black;
+}
+
+nav li:hover a{
+  background: #8b2323;
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+  display: block;
+  padding:10px 15px;
+}
+ 
+nav li:hover>ul{
+  display: block;
+}
+
+nav li>ul li{
+  display: block;
+  text-align: left;
+}
+
+nav li ul{
+  position: absolute;
+  display: none;
+}
+nav li>ul li>ul{
+  top:0;
+  left: 100%;
+  width: 125px;
+}
+nav li>ul li>ul li{
+  text-align: left;
+}
+nav li>ul li>ul li>ul{
+  top:0;
+  left: 100%;
+  width: 125px;
+}
+/**
+ * 4.section & article
+ */
+section{
+  width: 70%;
+  float: left;
+  border-right: dotted 2px #ccc;
+  margin-bottom: 15px;
+}
+
+article{
+  border-bottom: dashed 1px #eee;
+  /*margin:15px 0;*/
+  padding:15px 15px 15px 0;
+  clear:both;
+  overflow: hidden;
+}
+
+article:last-child{
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.art-img{
+  box-shadow: 2px 1px 8px black;
+  padding: 6px;
+  float: left;
+  margin-right: 10px;
+}
+
+.art-konten h2{
+  margin:0 0 2px 0;
+}
+
+.art-konten a{
+  text-decoration: none;
+  color:#444;
+}
+
+.art-konten a:hover{
+  background: orange;
+  color:#000;
+}
+
+.art-konten-meta{
+  color:#9C9C9C;
+  font-size: 14px;
+}
+.art-konten-intro{
+  line-height: 18px;
+}
+.art-konten-intro p{
+  padding: 0;
+  margin: 5px;
+}
+
+/**
+ * 5.aside
+ */
+
+aside{
+  width: 29%;
+  float: right;
+}
+aside h3{
+  text-align: center;
+  text-shadow: 1px 2px 3px #838b8b;
+}
+blockquote{
+  color:white; 
+  padding: 15px; 
+  margin: 6px auto; 
+  border: 3px solid #9C9C9C;
+  background-color: #8b2323;
+  -moz-border-radius-topleft: 15px; 
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px; 
+  -webkit-border-top-right-radius: 8px; 
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px; 
+  box-shadow: 0 1px 2px 1px black;
+  text-align: center;
+}
+blockquote:hover{
+  font-size: 20px;
+}
+
+/**
+ * 6.footer
+ */
+footer{
+  border-top:ridge 2px #ccc;
+  padding:12px 0 0 0;
+  clear:both;
+  margin-bottom: 0;
+}
+footer p:first-child{
+  margin:0;
+}
+.menu-foot{
+  width: 50%;
+ float: left;
+}
+.menu-foot a{
+  text-decoration: none;
+  color: #fff;
+}
+.menu-foot a:hover{
+  color:black;
+  font-size:30px;
+}
+.tabel-foot{
+  width: 50%;
+  float:right;
+  margin-bottom: 8px;
+}
+.tabel-foot h2{
+  padding: 0 0 3px 0; margin: 0;
+  text-align: center;
+  font-size: 17px;
+}
+.zebra-table {
+  width:500px;
+  border-collapse: collapse;
+  overflow: hidden;
+  border:6px solid #8b2323;
+}
+.zebra-table th,.zebra-table td{
+  vertical-align: top;
+  padding:7px 7px;
+  text-align: center;
+}
+.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+  background:#8b2323;
+}
+.copy{
+  clear: both;
+  padding: 15px;
+  text-align: center;
+  margin-top: 3px;
+  color: #9C9C9C;
+  border-top: dashed 2px #9C9C9C;
+}
