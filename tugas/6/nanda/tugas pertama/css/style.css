@@ -10,6 +10,9 @@ body {
 	padding-top: 30px;
 }
 
+header {
+	background: url(../gambar/background.jpg) repeat;
+}
 header form {
 	width: 70%;
 	float: right;
@@ -123,7 +126,8 @@ footer {
 	margin-top: 40px;
 	display: -webkit-flex;
 	display: flex;
-	background: rgba(189, 195, 199, 0.14);
+	/*background: rgba(189, 195, 199, 0.14);*/
+	background: url(../gambar/background.jpg) repeat;
 	height: auto;
 	font-size: 12px;
 }
